@@ -1,0 +1,79 @@
+* {
+  
+}
+
+html {
+  background-image: url("../img/yahtzee-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+}
+
+#title {
+  margin: 40px 0px 20px;
+}
+
+.scoreBoard {
+  width: 20%;
+  background-color: #600475;
+  border-radius: 5%;
+  border: gray 2px solid;
+  margin: 25px;
+  padding-left: 10px;
+  color: white;
+}
+
+#rcount {
+  width: 8%;
+  background-color: rgba(203, 204, 201,0.65);
+  border-radius: 10px;
+  margin: 45px;
+  padding-left: 10px;
+}
+
+button {
+  background-color: #036c9e;
+  color: white;
+  border-radius: 5%;
+}
+
+
+#diceSpacer {
+  display: flex;
+  justify-content: center;
+}
+
+#diceContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: 10px;
+  background-color: rgba(203, 204, 201,0.65);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#dice {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#d1, #d2, #d3, #d4, #d5, #rcount {
+  color: #9803ba;
+}
+
+#roll-button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#title-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lil' Yachtzee</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="javascript2/yjs.js"></script>
+  <link rel="stylesheet" href="stylesheets/ystyle.css">
+</head>
+<body onload="funcStart()">
+  <div id="title-container">
+    <img id="title" src="img/yahtzee-wide.png" alt="yahtzee logo"  width=15% height=15%>
+  </div>
+  <div id="diceSpacer">
+    <div id="diceContainer">
+      <div class="dice">
+        <h2 id="d1">*</h2>
+        <button id="d1Save">Save</button>
+      </div>
+      <div class="dice">
+        <h2 id="d2">*</h2>
+        <button id="d2Save">Save</button>
+      </div>
+      <div class="dice">
+        <h2 id="d3">*</h2>
+        <button id="d3Save">Save</button>
+      </div>
+      <div class="dice">
+        <h2 id="d4">*</h2>
+        <button id="d4Save">Save</button>
+      </div>
+      <div class="dice">
+        <h2 id="d5">*</h2>
+        <button id="d5Save">Save</button><br/>
+      </div>
+    </div>
+  </div>
+  <div id="roll-button-container">
+    <button id="roll" onClick="roll()">Roll</button>
+  </div>
+  <br>
+  <h1 id="rcount">Roll: </h1>
+  <div id="scoreButtons">
+    <button id="aces">Aces</button>
+    <button id="twos">Twos</button>
+    <button id="threes">Threes</button>
+    <button id="fours">Fours</button>
+    <button id="fives">Fives</button>
+    <button id="sixes">Sixes</button>
+    <button id="tok">Three of a Kind</button>
+    <button id="fok">Four of a Kind</button>
+    <button id="fh">Full House</button>
+    <button id="sms">Sm Straight</button>
+    <button id="lgs">Lg Straight</button>
+    <button id="yahtzee">YAHTZEE</button>
+    <button id="chance">chance</button>
+  </div>
+  <div class="scoreBoard">
+    <h3 id="p1">Player 1 Score: 0</h3>
+    <h3 id="p2">Player 2 Score: 0</h3>
+  </div>
+  <button id="debug">debug</button>
+</body>
+</html>
